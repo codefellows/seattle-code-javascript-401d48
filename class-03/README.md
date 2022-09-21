@@ -91,6 +91,13 @@ app.use('/custom', customRoutes);
 
 ```
 
+### Postgres
+
+Refer to [setup](https://codefellows.github.io/setup-guide/code-401-javascript/4-postgres.html) if necessary
+
+- Mac start postgres:  `brew services start postgres`
+- Windows/Linux, you may have set up aliases, or start with:  `pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start`
+
 ### Sequelize
 
 In order to communicate with our SQL database we will utilize the `sequelize` library and the `sequelize-cli` to communicate with our persistent data.  Use the following commands to perform database intialization and CRUD behaviors.
