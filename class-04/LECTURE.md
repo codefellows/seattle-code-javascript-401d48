@@ -12,16 +12,16 @@ What do we need?
 
 [You Tube Demo](https://www.youtube.com/watch?v=7lGiPItOVCM)
 
-what is Big O?
+what is Big O for space and time?
 
-#### Lab-03 COde Review
+#### Lab-03 Code Review
 
 - bring your questions to class!
 - we will do a significant code review!
 
 ## Relational Data Modeling
 
-Mongo was a non relational database and if a customer had multiple orders we likely saw something like this in our table:
+Mongo is a non relational database and if a customer had multiple orders we likely saw something like this in our table:
 ![Mongo](assets/mongo-class-04.png)
 
 Postgres is a relational database and gives us the opportunity to join multiple tables together
