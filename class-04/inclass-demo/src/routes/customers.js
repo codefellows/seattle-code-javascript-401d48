@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const { customersInterface } = require('../models');
+const { customersInterface, ordersInterface } = require('../models');
 
 const router = express.Router();
 
@@ -27,6 +27,24 @@ router.get('/customers/:id', async (req, res, next) => {
   // let customer = await CustomersModel.findOne({where: {id: req.params}});
   let customer = await customersInterface.read(id);
   res.status(200).send(customer);
+});
+
+// not required for lab
+router.get('/customerWithOrders/:id', async (req, res, next) => {
+  let { id } = req.params;
+  let query = {
+    where: { id },
+    include: ordersInterface.model,
+  };
+  // this is how it SHOULD work without interface
+  // let query = {
+  //   where: { id },
+  //   include: OrderModel,
+  // };
+  // let customerWithOrders = await CustomersModel.findOne(query);
+
+  let customerWithOrders = await customersInterface.readWithRelations(query);
+  res.status(200).send(customerWithOrders);
 });
 
 // update

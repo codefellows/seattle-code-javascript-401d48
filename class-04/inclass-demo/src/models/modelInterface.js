@@ -30,6 +30,16 @@ class ModelInterface{
       return err;
     }
   }
+
+  async readWithRelations(query){
+    try {
+      let record = await this.model.findOne(query);
+      return record;
+    } catch(err){
+      console.error(err);
+      return err;
+    }
+  }
 }
 
 module.exports = ModelInterface;
