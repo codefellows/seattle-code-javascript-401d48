@@ -4,6 +4,10 @@
 
 map function that takes an array and callback - see solution in `warmup` folder
 
+## Object Destructuring
+
+[Object Repl](https://replit.com/@rkgallaway/object-destructing#index.js)
+
 ## Review Lab 01
 
 - Stephen: action failing, likely need same version of node.  Actions setup - should just need yml file from configs.
