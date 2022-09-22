@@ -2,7 +2,8 @@
 
 ## Warmup
 
-see class repo - solution will be posted later
+see class repo 
+[Reduce Repl](https://replit.com/@rkgallaway/401d47-reduce#index.js)
 
 ## Code Review
 

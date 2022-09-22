@@ -1,0 +1,35 @@
+{
+  "name": "pg-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest --verbose --coverage",
+    "test-watch": "NODE_ENV=test jest --watchAll --verbose --coverage",
+    "db:config": "sequelize init:config",
+    "db:create": "sequelize db:create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/pg-models.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/pg-models/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/pg-models#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "eslint": "^8.23.1",
+    "express": "^4.18.1",
+    "jest": "^29.0.3",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.0",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.1.1",
+    "supertest": "^6.2.4"
+  }
+}
