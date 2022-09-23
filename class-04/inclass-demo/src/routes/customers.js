@@ -29,43 +29,42 @@ router.get('/customers/:id', async (req, res, next) => {
   res.status(200).send(customer);
 });
 
-// not required for lab
 router.get('/customerWithOrders/:id', async (req, res, next) => {
   let { id } = req.params;
-  let query = {
-    where: { id },
-    include: ordersInterface.model,
-  };
-  // this is how it SHOULD work without interface
+
+  let customerWithOrders = await customersInterface.readManyToOne(id, ordersInterface.model);
+
+  // if CRUD was not extracted this is what this SHOULD look like. untested.
   // let query = {
-  //   where: { id },
+  //   where: {id},
   //   include: OrderModel,
   // };
-  // let customerWithOrders = await CustomersModel.findOne(query);
-
-  let customerWithOrders = await customersInterface.readWithRelations(query);
+  // let customerWithOrders = await CustomerModel.findOne(query);
   res.status(200).send(customerWithOrders);
 });
 
 // update
-// router.put('/customers/:id', async (req, res, next) => {
-//   let { id } = req.params;
+router.put('/customers/:id', async (req, res, next) => {
+  let { id } = req.params;
 
-//   // update the record - ideally ALL information is in req.body
-//   await CustomersModel.update(req.body, {where: {id}});
+  // update the record - ideally ALL information is in req.body
+  // get the updated record and return that to the client (optional)
+  let customer = await customersInterface.update(req.body, id);
 
-//   // get the updated record and return that to the client (optional)
-//   let customer = await CustomersModel.findOne({where: {id}});
-//   res.status(200).send(customer);
+  res.status(200).send(customer);
 
-// });
+});
 
 // // delete
-// router.delete('/customers/:id', async (req, res, next) => {
-//   let { id } = req.params;
-
-//   await CustomersModel.destroy({where: {id}});
-//   res.status(200).send('Customer Deleted');
-// });
+router.delete('/customers/:id', async (req, res, next) => {
+  try {
+    let { id } = req.params;
+  
+    let message = await customersInterface.delete(id);
+    res.status(200).send(message);
+  } catch(err){
+    next(err.message);
+  }
+});
 
 module.exports = router;

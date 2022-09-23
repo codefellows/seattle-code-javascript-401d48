@@ -10,11 +10,18 @@ const ModelInterface = require('./modelInterface');
 // 'postgres://username:password@localhost:5432/d48-d8-api-app'
 // ternary:  WTF  what(conditional) ? return if TRUE : else return if FALSE
 const DATABASE_URL = process.env.NODE_ENV === 'test' 
-  ? 'sqlite:memory' 
+  ? 'sqlite::memory' 
   : process.env.DATABASE_URL;
 
 // instantiates our database
-const sequelizeDatabase = new Sequelize(DATABASE_URL);
+const sequelizeDatabase = new Sequelize(DATABASE_URL, {
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
+});
 
 //create CustomersModel with our Schema
 const CustomersModel = customersSchema(sequelizeDatabase, DataTypes);
