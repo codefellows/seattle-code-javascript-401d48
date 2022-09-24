@@ -36,4 +36,4 @@ head <- first node in a link list.  start at the head to traverse a linked list
 
 ## Whiteboard stretch goal:
 
-given a linked list with integer values, multiply each existing value by itself, change the exiting value to the new value, and return the SAME linked list. On Monday, let's big O!
+Write a function that takes in a linked list.  The linked list will contain only integer values.  Multiply each existing node value by itself, change that existing node value to this new value, and return the SAME linked list. 
