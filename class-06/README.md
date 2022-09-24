@@ -21,7 +21,7 @@ Today, we'll be looking at ways to create an account and securely authenticate a
 
 ## Today's Outline
 
-<!-- To Be Completed By Instructor -->
+See [LECTURE.md](LECTURE)
 
 ## Notes
 
