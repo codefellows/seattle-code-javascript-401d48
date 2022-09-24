@@ -1,0 +1,16 @@
+{
+  "name": "class-05",
+  "version": "1.0.0",
+  "description": "## Learning Objectives",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.0.3"
+  }
+}
