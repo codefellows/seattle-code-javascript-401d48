@@ -37,3 +37,7 @@ head <- first node in a link list.  start at the head to traverse a linked list
 ## Whiteboard stretch goal:
 
 Write a function that takes in a linked list.  The linked list will contain only integer values.  Multiply each existing node value by itself, change that existing node value to this new value, and return the SAME linked list. 
+
+## Bonus Content - Useful Later
+
+[Function Currying, Based on a 301 Reading](https://replit.com/@rkgallaway/301d82-greaterThan-currying#index.js)
