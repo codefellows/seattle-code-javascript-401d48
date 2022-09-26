@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon app.js",
-    "init:config": "sequelize init:config",
+    "db:config": "sequelize init:config",
     "db:create": "sequelize db:create",
     "test-watch": "NODE_ENV=test jest --watchAll",
     "test": "NODE_ENV=test jest"
