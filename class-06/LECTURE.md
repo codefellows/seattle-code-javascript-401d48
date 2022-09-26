@@ -37,3 +37,9 @@ what is the difference between authentication and authorization?
 > details in class
 
 ## TDD: Basic AUth Router
+
+## Demo Code Starter
+
+[https://github.com/rkgallaway/auth-demo](https://github.com/rkgallaway/auth-demo)
+
+note:  for class-06 this code find the starter code on main branch.  as we iterate find on `starter-code` branch
