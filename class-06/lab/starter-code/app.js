@@ -6,13 +6,20 @@ const bcrypt = require('bcrypt');
 const base64 = require('base-64');
 const { Sequelize, DataTypes } = require('sequelize');
 
+// NOTE: connected to sqlite::memory out of box for proof of life
+// TODO: 
+// connect postgres for local dev environment and prod
+// handle SSL requirements
+// connect with sqlite::memory for testing
+const DATABASE_URL = 'sqlite::memory'
+
 // Prepare the express app
 const app = express();
 
 // Process JSON input and put the data on req.body
 app.use(express.json());
 
-const sequelize = new Sequelize(process.env.DATABASE_URL);
+const sequelize = new Sequelize(DATABASE_URL);
 
 // Process FORM intput and put the data on req.body
 app.use(express.urlencoded({ extended: true }));
