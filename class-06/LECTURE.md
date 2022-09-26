@@ -2,16 +2,12 @@
 
 See relevant info: Available in the [class README](README).
 
-## Warmup
-
-> will be given in class
-
 ## Announcements
 
 - Feedback:  
 - One on One meetings:  
 
-## Review
+## Review - Add to Google Doc if you need
 
 - Node / Node Modules
 
@@ -27,14 +23,40 @@ Now, Where we are going!
 
 both are transformations: 
 
-> details in lecture
+What does encoding mean?
+- a transformation of text that uses a standard communication method.  Base64 is what we will use
+- Rob:  assigning pattern to overlay on an initial file
+- Hayden:  not necessarily secure
 
+Why encode?  When we encrypt we send username:password, the colon will not hash.  we need to first encode so that we can encrypt.
+
+What does Encryption mean?
+- hides information from everyone using salt and pepper
+  - can only be decrypted using a key
+  - salt: random noise / filler
+  - pepper: secret variable
+  - we will use bcrypt 
+  - we can hash a password more than one
+- Keelen: convert data into code (something secrete)
+- Stephen: a type of encoding that requires a key
+
+we create a hash, when we encrypt.  we can also we hashed the password
+
+Why do we encrypt:  
+- safeguard information
+- Stephen: Manage liability
+
+## WHiteboard
+
+[Class-06 Freehand](https://projects.invisionapp.com/freehand/document/cy3fl6X7P)
 
 ## Basic Authentication
 
 what is the difference between authentication and authorization?
 
-> details in class
+authentication - are you who you say you are
+
+authorization - are you allowed to do the thing based on the role you have been given
 
 ## TDD: Basic AUth Router
 
