@@ -1,8 +1,8 @@
 {
-  "name": "server",
+  "name": "basic-auth",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon app.js",
