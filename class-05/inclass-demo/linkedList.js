@@ -55,6 +55,36 @@ class LinkedList{
       current = current.next
     }
   }
+
+  // add node to FRONT of linked list
+  insert(value){
+    let node = new Node(value);
+    node.next = this.head;
+    this.head = node;
+  }
+
+  includes(value){
+    let result = false
+
+    let current = this.head;
+    while(current){
+      if(current.value === value) result = true;
+      current = current.next
+    }
+
+    return result;
+  }
+
+  toString(){
+    let str = '';
+    let current = this.head;
+    while (current){
+      str += `{ ${current.value} } -> `;
+      current = current.next
+    }
+    str += 'NULL';
+    return str;
+  }
 }
 
 
@@ -62,21 +92,24 @@ let list = new LinkedList();
 console.log('empty list', list);
 
 // add head to list
-list.add(1);
-list.add(2);
-list.add(3);
-list.add(4);
-list.add(5);
+list.insert(1);
+list.insert(2);
+list.insert(3);
+list.insert(4);
+list.insert(5);
 
 // hurts these eyes, but it looks like a series of nested objects
 // console.log('populated list', JSON.stringify(list));
 
 list.traverse();
 // list.traverseWithCallback(console.log);
-
+console.log('include result', list.includes(3));
+console.log(list.toString());
 // list.traverseWithCallback(logger);
 
 
 function logger(value){
   console.log(`Node Value: ${value}`);
 }
+
+module.exports = LinkedList;
