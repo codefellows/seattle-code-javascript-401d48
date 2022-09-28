@@ -28,3 +28,7 @@ Provide a working algorithm.  If you have time, begin writing code.  DO NOT writ
   - reassign node value to the node
   - move from current node to next node
 - when there is no next node - traversal is finished, return linked List
+
+## Solution with callback modified
+
+[Solution Repl](https://replit.com/@rkgallaway/linkedlist-traversal-warmup-08-solution#index.js)
