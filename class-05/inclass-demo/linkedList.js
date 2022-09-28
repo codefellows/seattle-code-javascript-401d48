@@ -85,22 +85,68 @@ class LinkedList{
     str += 'NULL';
     return str;
   }
+
+  insertBefore(value, newValue){
+    if(!this.head){
+      throw new Error('Linked List is Empty');
+    }
+
+    if (this.head.value === value){
+      this.insert(newValue);
+      return
+    }
+
+    let current = this.head;
+
+    while(current){
+      // console.log({current, currentNext: current.next})
+      if (current.next && current.next.value === value){
+        let newNode = new Node(newValue);
+        newNode.next = current.next;
+        current.next = newNode
+        current =  current.next.next
+      } else{
+        current = current.next;
+      }
+    }
+  }
+
+  insertAfter(value, newValue){
+    if(!this.head){
+      throw new Error('Linked List is Empty');
+    }
+
+    let current = this.head;
+
+    while(current){
+      // console.log({current, currentNext: current.next})
+      if (current.value === value){
+        let newNode = new Node(newValue);
+        newNode.next = current.next;
+        current.next = newNode
+      }
+
+      current = current.next;
+    }
+  }
 }
 
 
 let list = new LinkedList();
-console.log('empty list', list);
+// console.log('empty list', list);
 
 // add head to list
-list.insert(1);
-list.insert(2);
-list.insert(3);
-list.insert(4);
-list.insert(5);
+list.add(1);
+list.add(2);
+list.add(3);
+list.add(4);
+list.add(5);
 
 // hurts these eyes, but it looks like a series of nested objects
 // console.log('populated list', JSON.stringify(list));
 
+// list.insertBefore(3, 'A');
+// list.insertAfter(5, 'A');
 list.traverse();
 // list.traverseWithCallback(console.log);
 console.log('include result', list.includes(3));
