@@ -1,8 +1,17 @@
 # Access Control (ACL)
 
+## Overview
+
 While **Authentication** answers the question "Who are you?" ... or more specifically "Are you who you say you are?", **Authorization** takes the next step and asks "Are you allowed to do the thing you're asking to do?"
 
 Given a proper and valid user with a set of permissions, we can grant or restrict access to anything in our server.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
+- Code Review
+- Warmup question
+- Lecture
 
 ## Learning Objectives
 
@@ -19,11 +28,7 @@ Given a proper and valid user with a set of permissions, we can grant or restric
 
 - Implement a permissions based access control middleware module.
 - Integrate back-end authorization controls using Express and Postgres Database.
-- Use a virtual column for capabilties, to create a roles system.
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
+- Use a virtual column for capabilities, to create a roles system.
 
 ## Notes
 
