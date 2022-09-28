@@ -1,6 +1,6 @@
 # Access Control
 
-See relevant info: Available in the [class README](README).
+See relevant info: Available in the [class README](README.md).
 
 ## Code Review
 

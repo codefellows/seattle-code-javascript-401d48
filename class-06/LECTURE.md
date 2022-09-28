@@ -1,6 +1,6 @@
 # Class-06: Basic Authentication
 
-See relevant info: Available in the [class README](README).
+See relevant info: Available in the [class README](README.md).
 
 ## Announcements
 
