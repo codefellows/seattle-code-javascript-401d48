@@ -9,7 +9,7 @@
 
 ### Lab-08 
 
-Questions:
+Questions:  starting from scratch
 - 
 - 
 
