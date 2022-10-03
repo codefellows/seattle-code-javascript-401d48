@@ -129,6 +129,26 @@ class LinkedList{
       current = current.next;
     }
   }
+
+  kthFromEnd(k){
+    // two pointers 
+    let offset = this.head;
+    let kBehind = this.head;
+
+    // move the offset pointer ahead "k" places
+    for (let i = 0; i < k; i++){
+      offset = offset.next
+      // if offset cannot move forward, list isn't long enough. place logic here to create Exception
+    }
+
+    // offset exists, now move both pointers forward at same rate.  when offset finds end of list, kBehind.value is "kth" from end
+    while(offset.next){
+      offset = offset.next;
+      kBehind = kBehind.next;
+    }
+
+    return kBehind.value
+  }
 }
 
 
@@ -149,6 +169,7 @@ list.add(5);
 // list.insertAfter(5, 'A');
 list.traverse();
 // list.traverseWithCallback(console.log);
+console.log('kthFromEnd works!', list.kthFromEnd(0))
 console.log('include result', list.includes(3));
 console.log(list.toString());
 // list.traverseWithCallback(logger);
