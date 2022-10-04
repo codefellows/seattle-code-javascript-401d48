@@ -2,7 +2,7 @@
 
 ## Review
 
-- Lab: 
+- Lab 
 - Code Challenge: Let me know your [Questions](https://docs.google.com/document/d/16NwZC_DEHNxNEVZWwLlsJlNPl9EZmt-FBnjpgMSlIdk/edit?usp=sharing)
 
 
