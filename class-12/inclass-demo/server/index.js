@@ -34,9 +34,11 @@ brightness.on('connection', (socket) => {
   // how to join a room
   socket.on('JOIN', (room) => {
     console.log(`You've joined the ${room} room`);
+    socket.join(room);
   });
 
   socket.on('SUNLIGHT', (payload) => {
+    // OR use socket.any()
     logEvent('SUNLIGHT', payload);
     brightness.emit('SUNLIGHT', payload);
   });
