@@ -1,6 +1,12 @@
 # AWS: API, Dynamo and Lambda
 
+## Overview
+
 Mirroring our previous efforts in Express, today, we will be wiring up a completely serverless, let fully functional, CRUD-Enabled API.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -18,10 +24,6 @@ Mirroring our previous efforts in Express, today, we will be wiring up a complet
 - Creation of a DynamoDB Table
 - Creation of a Lambda function that can operate on a DynamoDB Table
 - Usage of Dynamoose in a NodeJS Lambda Function
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

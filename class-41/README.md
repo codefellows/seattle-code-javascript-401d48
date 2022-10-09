@@ -1,6 +1,12 @@
 # React Native
 
-Create a native, installable mobile application
+## Overview
+
+Create a native, in-stallable mobile application
+
+## Class Outline
+
+<!-- To be completed by instructor -->
 
 ## Learning Objectives
 
@@ -15,10 +21,6 @@ Create a native, installable mobile application
 
 - Create a quality mobile application
 - Utilize one or more device specific features
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

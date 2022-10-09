@@ -1,6 +1,12 @@
 # Advanced State with Reducers
 
+## Overview
+
 State is often more complex than simply updating a value directly. Often, we need to update values conditionally. Additionally, state might be more complex than a single value. In these cases, where we need more articulated access, we can use a "reducer" which allows us to interact with state using a common API
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -15,10 +21,6 @@ State is often more complex than simply updating a value directly. Often, we nee
 #### Execute
 
 - Manage state using a reducer with the `useReducer()` hook in a functional component
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

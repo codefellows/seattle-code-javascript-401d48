@@ -1,6 +1,12 @@
 # AWS: S3 and Lambda
 
+## Overview
+
 AWS Lambda allows writing code that is triggered in the cloud, without thinking about maintaining servers.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -19,9 +25,6 @@ AWS Lambda allows writing code that is triggered in the cloud, without thinking 
 - Deploying a NodeJS Lambda Function that connects to S3
 - Auto Deploying to AWS through GitHub
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 
@@ -33,7 +36,7 @@ AWS Lambda allows writing code that is triggered in the cloud, without thinking 
 - Strike teams (SME's don't have to integrate)
 - Micro Scaling (Functions scale independently and as needed)
 
-### Pro Tips ...
+### Pro Tips
 
 #### Args / Params
 

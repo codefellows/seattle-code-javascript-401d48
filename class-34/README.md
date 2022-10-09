@@ -1,6 +1,12 @@
 # API Integration
 
+## Overview
+
 Today, we will combine Authentication (valid user is logged in) and Authorization (what permissions does the user have) to create a UI that ensures that users only have access to content and functionality that they're granted access to.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -16,9 +22,3 @@ Today, we will combine Authentication (valid user is logged in) and Authorizatio
 
 - Connect a react application to a deployed API
 - Login and Authorization using both "Basic Authorization" and a "Bearer Token" with a live server
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
-## Notes

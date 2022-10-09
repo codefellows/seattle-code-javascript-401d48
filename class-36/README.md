@@ -1,6 +1,12 @@
 # Application State with Redux
 
+## Overview
+
 Managing global state at the application level can definitely be a challenge. While the Context API provides a mechanism to accomplish this very tactically, Redux is a library that specializes in sharing state between components using a global "Store"
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -18,10 +24,6 @@ Managing global state at the application level can definitely be a challenge. Wh
 #### Execute
 
 - Implement the core Redux boilerplate code required to participate in a store-based state managed application
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

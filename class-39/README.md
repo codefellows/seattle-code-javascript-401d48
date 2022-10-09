@@ -1,6 +1,12 @@
 # Redux - Additional Topics
 
+## Overview
+
 With the core concepts of Redux in place, we can turn our attention to alternate means of store management, and exploring how Redux can help us to add fidelity to our application process
+
+## Class Outline
+
+<!-- To be completed by instructor -->
 
 ## Learning Objectives
 
@@ -18,10 +24,6 @@ With the core concepts of Redux in place, we can turn our attention to alternate
 
 - A complete React/Redux Application
 - Migration of simple Redux to either Ducks or Toolkit
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

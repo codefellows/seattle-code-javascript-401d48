@@ -1,6 +1,12 @@
 # Redux - Asynchronous Actions
 
+## Overview
+
 Connecting a Redux application to a backend service (i.e. an API) requires a bit of additional work, as asynchronous actions can cause issues with the internal Redux store management mechanisms. Today, we will be exploring Redux middleware, specifically "Thunk" which provides the mechanism to work asynchronously with Redux
+
+## Class Outline
+
+<!-- To be completed by instructor -->
 
 ## Learning Objectives
 
@@ -16,13 +22,9 @@ Connecting a Redux application to a backend service (i.e. an API) requires a bit
 - Perform asynchronous redux actions
 - Take advantage of lifecycle hooks
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 ## Notes
 
-### Thunking for Data...
+### Thunking for Data
 
 Using Redux actions to connect to remote APIs via Thunk Middleware
 

@@ -1,9 +1,15 @@
 # AWS: Events
 
+## Overview
+
 AWS provides 2 different means of providing inter-application messaging
 
 - SNS - Simple Notification Service
 - SQS - Simple Queue Service
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -20,10 +26,6 @@ AWS provides 2 different means of providing inter-application messaging
 
 - Create a notification topic that triggers an action
 - Create a Queue that retains messages
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

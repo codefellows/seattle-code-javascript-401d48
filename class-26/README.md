@@ -1,8 +1,14 @@
 # Component Based UI
 
+## Overview 
+
 Component based UI systems like `React`, `Angular`, `Vue` and the like all operate on a variation of "Atomic Design", using "Components" as the means of delivery.
 
 "Thinking in React" means re-evaluating how you look at a web application: Breaking down it's functional parts, data dependencies, behaviors, and styles into independent, deliverable, re-usable components.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -34,36 +40,42 @@ Component based UI systems like `React`, `Angular`, `Vue` and the like all opera
 - Update React component state
 - Style React applications/components using SASS
 
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 ## Notes
 
 As a component based system, React does an awful lot for us, principally, it gets out out of the way and makes it EASY to implement your application the way you see it, using familiar tools.
 
 > JSX looks like markup, but it's actually Javascript. If you had to code it out, you wouldn't...
 
-JSX
+### JSX
 
 ```javascript
-const element = () => {
-  return {
+const Header = ({greeting}) => {
+  return (
     <h1 className="greeting">
-      Hello, world!
+      {greeting}
     </h1>
-  }
-);
+  );
+};
+
+const App = () => {
+  return <Header greeting="Hello, world!" />
+} 
 ```
 
 Behind the scenes...
 
 ```javascript
-const element = React.createElement(
-  'h1',
-  {className: 'greeting'},
-  'Hello, world!'
-);
+const Header = ({greeting}) => 
+  React.createElement(
+    'h1',
+    {className: 'greeting'},
+    greeting
+  );
+
+const App = () => React.createElement(
+  Header,
+  {greeting: "Hello, world!"}
+)
 ```
 
 ### Basic (Basic) React

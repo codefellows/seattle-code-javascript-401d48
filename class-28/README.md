@@ -1,8 +1,14 @@
 # Component Lifecycle / `useEffect()` Hook
 
+## Overview
+
 To this point, state has been owned and managed solely in Class based React components, using `this.state` with `this.setState()` and instance methods to manage it all.
 
 Newer versions of React now allow for "function components" to also manage their own state, using a newly exposed API, called "Hooks"
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -17,10 +23,6 @@ Newer versions of React now allow for "function components" to also manage their
 #### Execute
 
 - Use an effect hook to manage state at various (tactical) times during the life of a component
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

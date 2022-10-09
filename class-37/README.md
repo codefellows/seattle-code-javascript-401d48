@@ -1,6 +1,12 @@
 # Redux - Combined Reducers
 
+## Overview
+
 Redux excels at not only global state, but complex global state. Today, we'll be using multiple reducers to manage separate parts of the store
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -15,10 +21,6 @@ Redux excels at not only global state, but complex global state. Today, we'll be
 
 - Implementation of multiple reducers in a Redux app
 - Managing complex shared state between components
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

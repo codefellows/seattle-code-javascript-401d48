@@ -1,6 +1,12 @@
 # Gatsby, next.js, and other JS Frameworks
 
+## Overview
+
 React is great, but there are negative implications with regards to SEO (Search Engine Optimization) as well as with so many programming patterns, especially when it comes to page based applications. **Gatsby** and **next.js** are 2 frameworks that address both concerns
+
+## Class Outline
+
+<!-- To be completed by instructor -->
 
 ## Learning Objectives
 
@@ -17,10 +23,6 @@ React is great, but there are negative implications with regards to SEO (Search 
 - Build a simple Blog site with Gatsby
 - Build a simple Blog site with Next.js
 - Tackle new Javascript Frameworks
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

@@ -1,6 +1,12 @@
 # Context API - Behaviors
 
+## Overview
+
 Using the React "Context API" we can create an manage state in a more "global" fashion, making state that matters to your entire application easily available to ... your entire application.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -15,10 +21,6 @@ Using the React "Context API" we can create an manage state in a more "global" f
 #### Execute
 
 - Use the React Context API to tactically manage global state.
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

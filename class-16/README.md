@@ -1,6 +1,12 @@
 # AWS: Cloud Servers
 
+## Overview
+
 "The Cloud" is at the core of most internet applications, from distributed data, to servers, to games and hosting services like Heroku. How does it work? How can we leverage it?
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -21,10 +27,6 @@ This requires 2 parts:
 
 1. An "Environment" (container) for our application to run in
 1. The application code itself to be deployed "into" the environment
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

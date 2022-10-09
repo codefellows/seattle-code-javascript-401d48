@@ -1,6 +1,12 @@
 # `<Login />` and `<Auth />`
 
+## Overview
+
 Today, we will combine Authentication (valid user is logged in) and Authorization (what permissions does the user have) to create a UI that ensures that users only have access to content and functionality that they're granted access to.
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -18,10 +24,6 @@ Today, we will combine Authentication (valid user is logged in) and Authorizatio
 - Authorize using both "Basic Authorization" and a "Bearer Token"
 - Store a login token for re-use
 - Hide and Show components, links, pages based on both login status and permissions
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 
