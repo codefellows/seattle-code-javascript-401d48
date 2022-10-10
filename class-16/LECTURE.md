@@ -11,11 +11,30 @@
 
 ## Cloud Computing
 
-10 years ago...  this was totally a thing:  We'll discuss -> why cloud commuting is important.  where offices WERE, where most are now (or prefer to be)!
+10 years ago...  this was totally a thing:  On-site servers that required a lot of diverse maintenance
 
-### EC2 (Elastic Compute)
+### EC2 -> (ECC) -> (Elastic Compute Cloud)
+
+What is an EC2 instance?
+- Robert Ball:  Based on needs / requirements Virtual Machine - "environment"
+
+Scalability:
+- can more instance
+- paired with Elastic beanstalk we can have automatic load balancing
+
+Additional thoughts
+
+Virtual Environment running on PHYSICAL Server Farm Hardware
+
+- Create a virtual machine by provisioning resources from physical servers. Very fast and efficient, sit in between the Operating System and the underlying hardware. Allows seamless scalability between software and hardware.
+- Environments can be accessible to other Amazon Services and the public.
 
 ### Elastic Beanstalk (Application Platform)
+
+Web Application Platform on top of EC2 Virtual Environments
+
+- Create a platform specific runtime application that can execute your source code.
+- Configures an EC2 instance, pre-configured with the scale and maintain tools for your application type.
 
 ### Whiteboard
 
