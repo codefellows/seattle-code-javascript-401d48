@@ -15,7 +15,7 @@
     "lint": "eslint **/*.js",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rkgallaway/server-deployment-practice.git"
