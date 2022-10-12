@@ -4,7 +4,13 @@
 
 reach out with any individual needs ASAP
 
-## Whiteboard
+## Whiteboard Example
+
+Great Job and Thanks Stephen!
+
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/mZhyyo0wh)
+
+[Repl Solution to remove value](https://replit.com/@rkgallaway/liinkedlist-traversal-remove-value#index.js)
 
 ## Imposter Syndrome
 
@@ -22,7 +28,7 @@ opinionated service that allows us to deploy, and manage our application
 
 ## Serverless Architecture
 
-serverless => a lot more severs AT AWS -> no more big monolithic servers that handle all the things.  instead we have a series of (micro) services potentially hosted in the cloud.  think cloud computing.  think AWS managing infrastructure
+serverless => a lot more severs AT AWS -> no more big monolithic servers that handle all the things.  Think Lambda or any other service AWS defines as serverless.  instead we have a series of (micro) services potentially hosted in the cloud.  think cloud computing.  Mostly, think AWS managing infrastructure
 
 
 ## Lambda
