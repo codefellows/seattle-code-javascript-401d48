@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1231.0",
-    "sqs-consumer": "^5.7.0"
+    "chance": "^1.1.8",
+    "sqs-consumer": "^5.7.0",
+    "sqs-producer": "^2.1.0"
   }
 }
