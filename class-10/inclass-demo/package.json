@@ -1,0 +1,15 @@
+{
+  "name": "inclass-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stacks-and-queues.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.0"
+  }
+}

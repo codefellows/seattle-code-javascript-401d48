@@ -19,13 +19,16 @@ class Stack {
   }
 
   pop(){
-    // remove a node from the list
-    // what does this return AND
-    // what happens to top?  reassigned?  what about if stack is empty
+
+    let removedValue = this.top.value;
+    if (this.top){
+      this.top = this.top.next;
+    }
+    return removedValue;
   }
 
   peek(){
-    // leaving intentionally for you
+    return this.top.value;
   }
 
   isEmpty(){
@@ -50,19 +53,24 @@ class Queue{
   }
 
   dequeue(){
-    // leave this to you all
-    // if front maybe use a temp variable
-    //  mindful of the new front and the back.
-    // if queue is left empty, is back null?
-    // what does this return
+    let removedValue;
+    if (this.front){
+      removedValue = this.front.value;
+      if (this.front === this.back){
+        this.back = null;
+      }
+      this.front = this.front.next;
+    }
+    return removedValue;
   }
 
   peek(){
-    // value at the front 
+    this.front.value; 
   }
 
   isEmpty(){
-    // return Boolean 
+    return this.front === null;
   }
 }
 
+module.exports = { Queue, Stack };
