@@ -19,6 +19,12 @@ class KaryNode {
   }
 }
 
+class KaryTree {
+  constructor(){
+    this.root = null;
+  }
+}
+
 class BinaryTree {
   constructor() {
     this.root = null;
@@ -97,3 +103,5 @@ tree.root.right.right = new Node(17);
 
 // expect output of 1, 8, 5, 17, 15, 10
 tree.postOrder();
+
+module.exports = { KaryNode, KaryTree };
