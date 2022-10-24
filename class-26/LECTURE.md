@@ -57,5 +57,5 @@
 ## Code Challenge
 
 some translations:
-- `int j <-- i - 1` => the variable j will be an integer and assigned the value of `1 - 1`
+- `int j <-- i - 1` => the variable j will be an integer and assigned the value of `i - 1`
 - `int temp <-- arr[i]` => the variable temp will be an integer and assigned the value of `arr[i]`
