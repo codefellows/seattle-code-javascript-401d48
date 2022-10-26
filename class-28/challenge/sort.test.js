@@ -1,5 +1,5 @@
-import { Movies } from "./movies";
-import { inGenre, sortTitle, sortYear } from "./sort";
+let movies = require('./movies');
+let { inGenre, sortTitle, sortYear }  = require('./sort');
 
 describe("Sorters", () => {
   it("can sort movies by year", () => {

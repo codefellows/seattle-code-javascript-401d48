@@ -1,3 +1,5 @@
+# do not recommend the use of this if not deploying to gh-pages
+
 name: Deploy React App
 on:
   push

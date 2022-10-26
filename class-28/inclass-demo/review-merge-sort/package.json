@@ -1,0 +1,17 @@
+{
+  "name": "review-merge-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "merge-sort.js",
+  "dependencies": {
+    "jest": "^28.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
