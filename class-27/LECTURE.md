@@ -4,6 +4,10 @@
 
 [Today's Freehand](https://projects.invisionapp.com/freehand/document/Al0nC4ZZn)
 
+## Array Destructuring
+
+[Array Destructuring repl](https://replit.com/@rkgallaway/array-destructuring#index.js)
+
 ## Hooks
 
 What is a hook?  A function.
