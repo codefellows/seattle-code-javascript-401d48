@@ -4,6 +4,8 @@
 
 [Today's Freehand](https://projects.invisionapp.com/freehand/document/Z4wBE9BT1)
 
+[Reduce repl](https://replit.com/@rkgallaway/reduce-fun-401d48d8#index.js)
+
 ## Review
 
 ### Comparator Code Challenge Feedback
