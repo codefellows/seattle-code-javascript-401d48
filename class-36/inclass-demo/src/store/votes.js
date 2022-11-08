@@ -29,11 +29,11 @@ function votesReducer(state = initialState, action) {
     case 'DECREMENT':
       return {
         ...state,
+        totalVotes: state.totalVotes - 1,
         candidates: state.candidates.map(candidate => 
           candidate.name === payload.name ? 
           {name: candidate.name, votes: candidate.votes - 1} : 
           candidate),
-        totalVotes: state.totalVotes - 1,
       }
 
     case 'RESET':
