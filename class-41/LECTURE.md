@@ -15,9 +15,18 @@ any review needs, please: call out, reach out, get help in Remo
 
 ## Whiteboard
 
-[Today's Freehand]()
+[Today's Freehand](https://projects.invisionapp.com/freehand/document/S4pYSOcZu)
 
 ## Useful Expo / React Native Tips
 
 - machine and device must be using the SAME wifi
 - Last Class:  Running windows 11 and iOS on my phone. in terminal, needed to run `expo start --tunnel`.  Maybe try this if the app doesn't initially open on your phone!
+- switch to node 16, 18 not supported for all - mixed results noted
+- `npx epo start --tunnel` if you want to collaborate, or sometimes just to get it to work!
+
+##  installs
+- signup at expo.dev
+- install expo go on your phone
+- npm i -g expo-cli
+- [see expo docs](https://docs.expo.dev/)
+- use [Native Base](https://docs.nativebase.io/?utm_source=HomePage&utm_medium=header&utm_campaign=NativeBase_3) as you like... if you like
